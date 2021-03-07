@@ -1,0 +1,15 @@
+{
+
+	"name" : "Good Luck Charm",
+	"version" : "1.0",
+	"manifest_version" : 2,
+	"content_scripts":[
+		{
+			"matches" : ["http://192.168.43.1:8080/?page=java/editor.html&pop=true", "http://192.168.43.1:8080/*"],
+			//"matches" : ["https://developer.chrome.com/docs/extensions/mv2/content_scripts/"],
+			"js": ["content.js"]
+		}
+
+	]
+
+}
